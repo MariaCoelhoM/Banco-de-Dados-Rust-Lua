@@ -1,6 +1,3 @@
--- Arquivo de extensões Lua carregado pelo Rust (você pode editar/expandir)
--- Retornar { ok = boolean, value = string|nil, error = string|nil } em on_add/on_get
-
 local function table_ret(ok, value, error)
   return { ok = ok, value = value, error = error }
 end
